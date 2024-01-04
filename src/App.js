@@ -1,11 +1,18 @@
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
-export default function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Welcome to the Capstone Project!</h1>
-    </div>
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
-
+export default App;
