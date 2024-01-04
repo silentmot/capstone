@@ -3,8 +3,10 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () => {
+
+function App() {
   return (
     <>
       <Header />
